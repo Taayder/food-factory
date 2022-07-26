@@ -24,6 +24,10 @@ body {
     color: #828282;
 }
 
+h2 {
+    font-weight: 900;
+}
+
 h1 {
     font-size: 60px;
 }
@@ -64,4 +68,55 @@ h1 {
 
 .my-recipies {
     text-align: center;
+}
+
+.recipe-box {
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 3%;
+    padding: 1%;
+    border-radius: 40px;
+}
+
+.recipe-box img {
+    display: block;
+    margin: auto;
+    width: 97%;
+}
+
+.recipe-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.social-section {
+    margin-bottom: 100px;
+}
+
+.social-box {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    text-align: center;
+    padding: 2% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+
+}
+
+.social-item {
+    margin: 0 50px;
+    width: 33%;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.footer p {
+    color: lightgray;
 }
