@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+#title-image {
+    width: 80%;
+}
+
+.title-part {
+    padding: 6%;
+}
+
+.title-part p {
+    margin-bottom: 50px;
+    color: #828282;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.orange {
+    color: orange;
+}
+
+.gradient-button {
+    text-decoration: none;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    padding: 15px;
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.about-image {
+    width: 60%;
+    padding-left: 15%;
+}
+
+.about-section {
+    margin-top: 100px;
+}
+
+.about-section p {
+    margin-bottom: 50px;
+    width: 75%;
+    color: #828282;
+}
+
+.about-background {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.my-recipies {
+    text-align: center;
+}
